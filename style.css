@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: url("./images/pexels-elti-meshau-333850.jpg");
+    background-size: cover;
+    /* color: #D4E0EE; */
+    font-family: cursive;
+}
+.crazy{
+    height: 450px;
+    color: black;
+    font-size: large;
+    background-color: #feedbb3d;
+    border-radius: 5px;
+}
+#title{
+    border-radius: 5px;
+}
+#year{
+    border-radius: 5px;
+}
+#butt{
+    margin: 120px;
+    margin-left: 500px;
+}
+#select{
+    position: relative;
+}   
+#select>:only-child{
+   left: 3200px;
+}
+#imgdiv{
+    position: absolute;
+    top: 59%;
+    left: 45%;
+}
