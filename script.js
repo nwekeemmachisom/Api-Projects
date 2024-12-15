@@ -34,7 +34,8 @@ butt.addEventListener("click",()=>{
             ${element.Title}<br>
             ${element.Year}
            
-            </p>`
+            </p>#
+            <img src="${element.Poster}">`
             append.appendChild(create)
             append.style.backgroundColor = '#B3080F'
         });
